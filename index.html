@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Landing Page</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Importa as fontes para este projeto-->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+    <!-- Importa o CSS utilizado neste projeto -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
+        <!-- A tag nav recebe 5 classes diferentes do bootstrap que determina tamanho, cor, cor de fundo e se será fixa no topo -->
+        <div class="container">
+            <!-- a classe container deixa seu layout alinhado corretamente na página. Com margens laterais ou não (container-fluid) -->
+            <!--o container é um componente base, e pode ser usado mais de 1x -->
+            
+            <img src="assets/img/st.png" alt="logo TN">
+            <div>
+                <ul class="navbar-nav ml-auto"> 
+                    <!-- a tag ul que seria lista não ordenada, possui 2 classes de fazer parte da barra de navegação e ter um margin left auto que seria o ml-auto-->
+                    <li class="nav-item"> <!-- li é a tag que referencia aos tópicos de uma lista, e a classe nav-item é mostrando que este item faz parte da navegação -->
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-dark">Login</button>
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--termina a barra de navegação -->
+    
+    <!-- Header -->
+    <header class="intro-header">
+        <div class="container"> <!-- aqui a classe container aparece novamente --> 
+            <div class="introducao"> <!-- a classe introdução foi colocada para que as tags dentro desta div sejam estilizadas pelo CSS -->
+                
+                <h1>Thinking Mobility</h1> <!-- h1 significa heading tags, usada para títulos e subtítulos, neste caso seria para o título principal -->
+                <p>Aqui você encontra todas as informações sobre transporte de maneira rápida, prática e eficiente.</p> <!-- o h3 seria como um subtítulo, complementando o título-->
+                <hr class="intro-divider"> <!-- linha divisória, com uma classe para estilizar-->
+            </div>
+        </div>
+    </header>
+    
+    <!-- primeiro bloco de texto e imagem  -->
+    <section class="content-01">
+        <div class="container">
+            <div class="row"> <!--é colocado a tag row, pois neste caso usaremos o grid de colunas, então as div que vem a seguida estarão na mesma linha
+                mas em colunas paralelas -->
+                <div class="col-lg-5 mr-auto order-lg-2"> <!-- é colocado classes do Bootstrap mesmo:
+                    col-lg-5 é coluna larga e que ocupe 5 col.;
+                    mr-auto seria margin right :auto;
+                    order-lg-2 é colocado como um espaçamento a direita e a esquerda, formando as 12col. -->
+                    <div class="clearfix"></div> <!-- a classe Clearfix, é semelhante ao efeito float, para deixar 2 div na mesma linha e alinhadas.-->
+                    <h2 class="primeiro-texto">Baixe nosso app ou entre em nosso site.</h2>
+                    <h4>Você irá encontar todas as informações sobre transporte de maneira rápida, prática e eficiente.</h4>
+                    <button type="button" class="btn btn-info">Baixe</button>
+                    <button type="button" class="btn btn-info">Acesse</button>
+                    <!--a tag <a> é anchor(ancora), que serve quando vc quer inserir um link em algum item do seu site, e este link é colocado no "href" -->
+                    </div>
+                    <div class="col-lg-5 ml-auto order-lg-1 imagens">
+                        <img class="img-fluid" src="http://icons.iconarchive.com/icons/pelfusion/long-shadow-media/512/Mobile-Smartphone-icon.png" alt="">
+                        <img class="img-fluid" src="http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/iMac-icon.png"
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- termina o primeiro bloco de texto e imagem -->
+    
+    <!-- segundo bloco de texto e imagem-->
+    
+    <!-- termina o bloco de txt e imagem -->
+    
+    <!-- banner do rodapé -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <ul class="list-inline banner-social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-link">
+                                <i class="fa fa-facebook fa-fw"></i>
+                                <span class="network-name">facebook
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-link btn-md">
+                                <i class="fa fa-linkedin fa-fw"></i>
+                                <span class="network-name">LinkedIn</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- final do rodapé -->
+    
+</body>
+
+</html>
